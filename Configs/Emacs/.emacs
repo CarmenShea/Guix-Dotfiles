@@ -146,7 +146,8 @@
         (tab-bar-tab-name-current))))
 
 (setq tab-bar-tab-name-function #'my/tab-bar-tab-name-function)
-;; Test Line 
+;; Test Line
+;; Test 2nd line
 ;; Only show the tab bar if there are 2 or more tabs
 (setq tab-bar-show 0)
 
