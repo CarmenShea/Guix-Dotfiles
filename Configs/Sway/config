@@ -8,6 +8,7 @@ set $term alacritty
 # set $menu rofi -m $(swaymsg -t get_outputs | jq 'map(select(.active) | .focused) | index(true)') -show drun -run-command 'swaymsg exec -- {cmd}'
 # set fuzzel as the main application launcher
 # Test line
+# Second Test line
 set $menu fuzzel -w 80 -x 8 -y 8 -r 3 -b 232635ff -t A6Accdff -s A6Accdff -S 232635ff -C c792eacc -m c792eacc -f "Iosevka:weight=light:size=12" --no-fuzzy
 set $screenshot grim ~/Downloads/screenshots/scrn-$(date +"%Y-%m-%d-%H-%M-%S").png
 set $screenclip slurp | grim -g - ~/Downloads/screenshots/scrn-$(date +"%Y-%m-%d-%H-%M-%S").png
