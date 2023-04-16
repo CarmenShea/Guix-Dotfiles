@@ -11,6 +11,7 @@
 
 ;; Test change
 ;; Test softlink to Git after reboot
+;; Test softlink after Magit-pull
 
 ;; This file is part of GNU Emacs.
 
