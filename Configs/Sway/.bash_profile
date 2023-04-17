@@ -16,7 +16,7 @@ if [ -e /home/carmen/.nix-profile/etc/profile.d/nix.sh ]; then . /home/carmen/.n
 #    synclient HorizTwoFingerScroll=1
 #    synclient TapButton1=1
 #fi
-#Testfile for softlink
+# Update test for softlinking
 
 
 #syndaemon -i 0.8 -d -R
