@@ -1,3 +1,4 @@
+
 # If running from tty1 start sway
 [ "$(tty)" = "/dev/tty1" ] && exec dbus-launch --sh-syntax --exit-with-session sway
 
@@ -15,7 +16,7 @@ if [ -e /home/carmen/.nix-profile/etc/profile.d/nix.sh ]; then . /home/carmen/.n
 #    synclient HorizTwoFingerScroll=1
 #    synclient TapButton1=1
 #fi
-
+#Testfile for softlink
 
 
 #syndaemon -i 0.8 -d -R
