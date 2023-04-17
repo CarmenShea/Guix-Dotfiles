@@ -5,7 +5,7 @@
 ;; this file to tweak the system configuration, and pass it
 ;; to the 'guix system reconfigure' command to effect your
 ;; changes.
-
+;; Test for softlinking
 
 ;; Indicate which modules to import to access the variables
 ;; used in this configuration.
