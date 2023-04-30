@@ -284,6 +284,12 @@ input "1267:12504:PNP0C50:01_04F3:30D8_Touchpad" {
        natural_scroll enabled
        middle_emulation enabled
    }
+### Input configuration for Logitech bluetooth keyboard / trackpad   
+input "1133:16642:Logitech_TK820" {
+      tap enabled
+      natural_scroll enabled
+      middle_emulation enabled
+   }
 #
 # You can get the names of your inputs by running: swaymsg -t get_inputs
 # Read `man 5 sway-input` for more information about this section.
