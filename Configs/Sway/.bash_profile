@@ -7,6 +7,7 @@ if [ -f ~/.bashrc ]; then . ~/.bashrc; fi
 
 GUIX_PROFILE="/home/carmen/.guix-profile"
      . "$GUIX_PROFILE/etc/profile"
+export XDG_RUNTIME_DIR
 
 if [ -e /home/carmen/.nix-profile/etc/profile.d/nix.sh ]; then . /home/carmen/.nix-profile/etc/profile.d/nix.sh; fi # added by Nix installer
 
